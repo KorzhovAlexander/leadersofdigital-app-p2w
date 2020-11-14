@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.7.0" />
+    <PackageReference Include="NSwag.MSBuild" Version="13.7.0" />
+  </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Application\Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\bundles" />
+      <Folder Include="wwwroot\uploads" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\092c6130df8fd21998880b86af83aece-Roboto-500.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\0fcd45fbfc419c42c8b96fafe87db102-Roboto-500.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\17451a4c1cd55e33ac57c3a441d42f61-Roboto-700.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\1d3bced88509b08389849b09dc444b31-Roboto-500.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\410392867b25e6ea8bfbb758ac137ce6-dxiconsmaterial.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\64cfb66c866ea50cad477e2b0d4ace4f-Roboto-400.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\6bede58e856278b0f8f1ddf5aceb2e96-Roboto-400.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\73288d91c325e82a5b92c7ca3ba57482-Roboto-700.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\92fbd4e93cf0a5dbebaa100066de8653-Roboto-700.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\978a14bb9e3fa6511538c6923e2e65b7-dxiconsmaterial.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\9bea124e5f1f51e2d2a11a24d24ad4f8-dxiconsmaterial.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\c27d89ac77468ae18f28e6b47e323a4f-Roboto-300.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\ce61b8b68994802f2e55b64c5e69a450-Roboto-300.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\d923dfafc0c5183b59aa015501b6e960-Roboto-300.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\bundles\fonts\e02e9d6ff5547f7e99627e1117bbf5ec-Roboto-400.woff" />
+    </ItemGroup>
+
+</Project>

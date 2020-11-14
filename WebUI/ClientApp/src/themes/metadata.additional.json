@@ -1,0 +1,12 @@
+{
+  "items": [
+  ],
+  "baseTheme": "material.purple.dark.compact",
+  "assetsBasePath": "../../../node_modules/devextreme/dist/css/",
+  "outputColorScheme": "arktika-scheme-dark",
+  "makeSwatch": true,
+  "base": true,
+  "widgets": []
+}
+
+

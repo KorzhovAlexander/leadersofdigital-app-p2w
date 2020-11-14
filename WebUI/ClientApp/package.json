@@ -1,0 +1,74 @@
+{
+  "name": "personnel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack.cmd --progress --watch --config webpack.dev.config.js",
+    "build": "./node_modules/.bin/webpack.cmd --progress --config webpack.dev.config.js",
+    "build-prod": "./node_modules/.bin/webpack.cmd --config webpack.prod.config.js",
+    "serve-cli": "vue-cli-service serve",
+    "build-cli": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-themes": "devextreme build",
+    "postinstall": "npm run build-themes"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^23.1.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.3",
+    "core-js": "^3.6.5",
+    "devextreme": "20.2.3",
+    "devextreme-aspnet-data-nojquery": "^2.7.2",
+    "devextreme-vue": "20.2.3",
+    "moment": "^2.29.1",
+    "sass": "^1.28.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.8",
+    "vuex-oidc": "^3.10.1",
+    "whatwg-fetch": "^3.4.1"
+  },
+  "devDependencies": {
+    "@microsoft/signalr": "^3.1.6",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "axios": "^0.21.0",
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^5.0.1",
+    "devextreme-cli": "1.2.4",
+    "devextreme-themebuilder": "20.2.3",
+    "eslint": "^7.12.1",
+    "eslint-plugin-vue": "^7.1.0",
+    "file-loader": "^6.2.0",
+    "sass-loader": "^10.0.5",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "vuex": "^3.5.1",
+    "webpack": "^4.41.2",
+    "webpack-bundle-tracker": "^0.4.3",
+    "webpack-cli": "^3.3.10",
+    "exceljs": "^4.2.0",
+    "file-saver": "^2.0.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
